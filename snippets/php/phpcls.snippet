@@ -1,0 +1,7 @@
+namespace ${1:`substitute(substitute(substitute(expand("%:p"), '\v(.*\/\l+)((\/\u\w+)+)\/\u\w+.php$', '\2', ''), '\/', '\\\', 'g'), '^\\\', '', '')`};
+
+class ${2:`Filename('', 'myClass')`}
+{
+    ${3}
+}
+

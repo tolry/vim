@@ -1,0 +1,27 @@
+namespace ${1:`substitute(substitute(substitute(expand("%:p"), '\v(.*\/\l+)((\/\u\w+)+)\/\u\w+.php$', '\2', ''), '\/', '\\\', 'g'), '^\\\', '', '')`};
+
+use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\FormBuilderInterface;
+
+class ${2:`Filename('', 'myClass')`} extends AbstractType
+{
+	public function buildForm(FormBuilderInterface $builder, array $options)
+	{
+		$builder
+			${4}
+		;
+	}
+
+	public function getName()
+	{
+		return '${3}';
+	}
+
+	public function getDefaultOptions(array $options)
+	{
+		return array(
+
+		);
+	}
+}
+
