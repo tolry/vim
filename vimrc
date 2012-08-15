@@ -26,6 +26,8 @@ Bundle 'msanders/snipmate.vim'
 Bundle 'ervandew/supertab'
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'stephpy/vim-php-cs-fixer'
 filetype plugin indent on     " required!
 
 let mapleader = ","
@@ -69,8 +71,17 @@ set ls=2
 " file autocomplete
 set wildmenu
 set wildmode=list:longest
-set wildignore+=app/main/cache/**,app/cache/**,vendor/**/tests/**
+set wildignore+=*/app/main/cache/*,*/app/cache/*,*/vendor/**/tests/*
 
+" php-cs-fixe plugin
+let g:php_cs_fixer_path = "/usr/local/bin/php-cs-fixer" " define the path to the php-cs-fixer.phar
+let g:php_cs_fixer_level = ""                " which level ?
+let g:php_cs_fixer_config = ""           " configuration
+let g:php_cs_fixer_php_path = "php"             " Path to PHP
+let g:php_cs_fixer_fixers_list = "linefeed,indentation,trailing_spaces,unused_use,php_closing_tag,return,visibility,braces,phpdoc_params,eof_ending,extra_empty_lines,controls_spaces,elseif"             " List of fixers
+let g:php_cs_fixer_enable_default_mapping = 1   " Enable the mapping by default (<leader>pcd)
+let g:php_cs_fixer_dry_run = 0                  " Call command with dry-run option
+let g:php_cs_fixer_verbose = 0                  " Return the output of command if 1, else an inline information.
 
 nnoremap <leader>f :CtrlP<CR>
 let g:ctrlp_working_path_mode = ''
