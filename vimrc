@@ -28,6 +28,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'stephpy/vim-php-cs-fixer'
+Bundle 'tsaleh/vim-matchit'
 filetype plugin indent on     " required!
 
 let mapleader = ","
