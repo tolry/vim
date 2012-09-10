@@ -29,6 +29,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'stephpy/vim-php-cs-fixer'
 Bundle 'tsaleh/vim-matchit'
+Bundle 'jakobwesthoff/argumentrewrap'
 filetype plugin indent on     " required!
 
 let mapleader = ","
@@ -87,3 +88,5 @@ let g:php_cs_fixer_verbose = 0                  " Return the output of command i
 nnoremap <leader>f :CtrlP<CR>
 let g:ctrlp_working_path_mode = ''
 
+" argumentsrewrap
+nnoremap <silent> <leader>a :call argumentrewrap#RewrapArguments()<CR>
