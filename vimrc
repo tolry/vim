@@ -30,6 +30,7 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'stephpy/vim-php-cs-fixer'
 Bundle 'tsaleh/vim-matchit'
 Bundle 'jakobwesthoff/argumentrewrap'
+Bundle 'vim-scripts/mru.vim'
 filetype plugin indent on     " required!
 
 let mapleader = ","
