@@ -31,6 +31,7 @@ Bundle 'stephpy/vim-php-cs-fixer'
 Bundle 'tsaleh/vim-matchit'
 Bundle 'jakobwesthoff/argumentrewrap'
 Bundle 'vim-scripts/mru.vim'
+Bundle "pangloss/vim-javascript"
 filetype plugin indent on     " required!
 
 let mapleader = ","
@@ -91,3 +92,10 @@ let g:ctrlp_working_path_mode = ''
 
 " argumentsrewrap
 nnoremap <silent> <leader>a :call argumentrewrap#RewrapArguments()<CR>
+
+let g:html_indent_inctags = "html,body,head,tbody"
+let g:html_indent_script1 = "inc"
+let g:html_indent_style1 = "inc"
+
+au Filetype html,xml,jinjahtml source ~/.vim/scripts/wrapwithtag.vim
+
