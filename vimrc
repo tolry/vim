@@ -32,6 +32,7 @@ Bundle 'tsaleh/vim-matchit'
 Bundle 'jakobwesthoff/argumentrewrap'
 Bundle 'vim-scripts/mru.vim'
 Bundle "pangloss/vim-javascript"
+Bundle 'vim-scripts/Align'
 filetype plugin indent on     " required!
 
 let mapleader = ","
@@ -88,10 +89,14 @@ let g:php_cs_fixer_dry_run = 0                  " Call command with dry-run opti
 let g:php_cs_fixer_verbose = 0                  " Return the output of command if 1, else an inline information.
 
 nnoremap <leader>f :CtrlP<CR>
+let g:ctrlp_working_path_mode = ''
+" search in CtrlP for selected text
+" or current word under cursor
 nmap <leader>lw :CtrlP<CR><C-\>w
 vmap <leader>lw y:CtrlP<CR><C-\>c
 
-let g:ctrlp_working_path_mode = ''
+vmap <leader>a :Align =<CR>
+
 
 " argumentsrewrap
 nnoremap <silent> <leader>a :call argumentrewrap#RewrapArguments()<CR>
