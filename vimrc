@@ -18,6 +18,7 @@ let b:phpgetset_setterTemplate =
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 " include bundles here
+Bundle 'nanotech/jellybeans.vim'
 Bundle 'gmarik/vundle'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'docteurklein/php-getter-setter.vim'
@@ -33,6 +34,8 @@ Bundle 'jakobwesthoff/argumentrewrap'
 Bundle 'vim-scripts/mru.vim'
 Bundle "pangloss/vim-javascript"
 Bundle 'vim-scripts/Align'
+Bundle 'scrooloose/nerdtree'
+Bundle 'jistr/vim-nerdtree-tabs'
 filetype plugin indent on     " required!
 
 let mapleader = ","
@@ -92,11 +95,13 @@ nnoremap <leader>f :CtrlP<CR>
 let g:ctrlp_working_path_mode = ''
 " search in CtrlP for selected text
 " or current word under cursor
-nmap <leader>lw :CtrlP<CR><C-\>w
-vmap <leader>lw y:CtrlP<CR><C-\>c
+nmap <leader>fw :CtrlP<CR><C-\>w
+vmap <leader>fw y:CtrlP<CR><C-\>c
 
 vmap <leader>a :Align =<CR>
 
+" NerdTreeTabs
+map <Leader>n <plug>NERDTreeTabsToggle<CR>
 
 " argumentsrewrap
 nnoremap <silent> <leader>a :call argumentrewrap#RewrapArguments()<CR>
@@ -106,4 +111,5 @@ let g:html_indent_script1 = "inc"
 let g:html_indent_style1 = "inc"
 
 au Filetype html,xml,jinjahtml source ~/.vim/scripts/wrapwithtag.vim
+
 
