@@ -18,12 +18,20 @@ let b:phpgetset_setterTemplate =
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 " include bundles here
-Bundle 'nanotech/jellybeans.vim'
 Bundle 'gmarik/vundle'
+" color scheme
+Bundle 'nanotech/jellybeans.vim'
+" additional syntax highlighting
+Bundle 'Glench/Vim-Jinja2-Syntax'
+Bundle 'evidens/vim-twig'
+Bundle 'hail2u/vim-css3-syntax'
+Bundle 'plasticboy/vim-markdown'
+Bundle 'groenewege/vim-less'
+" colors in css-context are displayed correctly
+Bundle 'ap/vim-css-color'
+
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'docteurklein/php-getter-setter.vim'
-Bundle 'mileszs/ack.vim'
-Bundle 'msanders/snipmate.vim'
 Bundle 'ervandew/supertab'
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
@@ -36,15 +44,20 @@ Bundle "pangloss/vim-javascript"
 Bundle 'vim-scripts/Align'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
-filetype plugin indent on     " required!
 
-let mapleader = ","
-let maplocalleader = ","
-
+" Snippets
+Bundle 'MarcWeber/vim-addon-mw-utils'
+Bundle 'tomtom/tlib_vim'
+Bundle 'honza/vim-snippets'
+Bundle 'garbas/vim-snipmate'
 
 " Use filetype plugins, e.g. for PHP
 filetype plugin on
 filetype indent on
+set autoindent
+
+let mapleader = ","
+let maplocalleader = ","
 
 " Create directory on save if it does not exist
 " http://stackoverflow.com/questions/4292733/vim-creating-parent-directories-on-save
@@ -53,7 +66,7 @@ augroup BWCCreateDir
     autocmd BufWritePre * if expand("<afile>")!~#'^\w\+:/' && !isdirectory(expand("%:h")) | execute "silent! !mkdir -p ".shellescape(expand('%:h'), 1) | redraw! | endif
 augroup END
 
-" %% maps to currenty directory
+" %% maps to current directory
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
 
 " Set colors
@@ -91,8 +104,8 @@ let g:php_cs_fixer_enable_default_mapping = 1   " Enable the mapping by default 
 let g:php_cs_fixer_dry_run = 0                  " Call command with dry-run option
 let g:php_cs_fixer_verbose = 0                  " Return the output of command if 1, else an inline information.
 
-nnoremap <leader>f :CtrlP<CR>
 let g:ctrlp_working_path_mode = ''
+nnoremap <leader>f :CtrlP<CR>
 " search in CtrlP for selected text
 " or current word under cursor
 nmap <leader>fw :CtrlP<CR><C-\>w
