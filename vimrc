@@ -21,6 +21,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 " color scheme
 Bundle 'nanotech/jellybeans.vim'
+Bundle 'altercation/vim-colors-solarized'
 " additional syntax highlighting
 Bundle 'Glench/Vim-Jinja2-Syntax'
 Bundle 'evidens/vim-twig'
@@ -73,10 +74,10 @@ cnoremap %% <C-R>=expand('%:h').'/'<cr>
 set t_Co=256
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 "colorscheme my_tcsoft
-colorscheme jellybeans
+colorscheme solarized
+set bg=dark
 syntax enable
 
-set bg=dark
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
