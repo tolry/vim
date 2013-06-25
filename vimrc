@@ -71,9 +71,9 @@ augroup END
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
 
 " Set colors
-set t_Co=256
-let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
-"colorscheme my_tcsoft
+"set t_Co=256
+"let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
+"colorscheme jellybeans
 colorscheme solarized
 set bg=dark
 syntax enable
