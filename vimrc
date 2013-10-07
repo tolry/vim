@@ -13,6 +13,7 @@ let b:phpgetset_setterTemplate =
             \ "    public function %funcname%($%varname%)\n" .
             \ "    {\n" .
             \ "        $this->%varname% = $%varname%;\n" .
+            \ "        return $this;\n" .
             \ "    }"
 
 set rtp+=~/.vim/bundle/vundle/
@@ -75,7 +76,7 @@ set t_Co=256
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 colorscheme jellybeans
 "colorscheme solarized
-set bg=dark
+"set bg=dark
 syntax enable
 
 set tabstop=4
