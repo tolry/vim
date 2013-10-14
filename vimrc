@@ -107,6 +107,20 @@ let g:php_cs_fixer_dry_run = 0                  " Call command with dry-run opti
 let g:php_cs_fixer_verbose = 0                  " Return the output of command if 1, else an inline information.
 
 let g:ctrlp_working_path_mode = ''
+let g:ctrlp_abbrev = {
+    \ 'gmode': 'i',
+    \ 'abbrevs': [
+        \ {
+            \ 'pattern': '_',
+            \ 'expanded': ''
+        \ },
+        \ {
+            \ 'pattern': '\\',
+            \ 'expanded': ''
+        \ }
+    \ ]
+\ }
+
 nnoremap <leader>f :CtrlP<CR>
 " search in CtrlP for selected text
 " or current word under cursor
