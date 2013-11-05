@@ -46,6 +46,7 @@ Bundle "pangloss/vim-javascript"
 Bundle 'vim-scripts/Align'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
+Bundle 'vim-scripts/taglist.vim'
 
 " Snippets
 Bundle 'MarcWeber/vim-addon-mw-utils'
@@ -117,6 +118,10 @@ let g:ctrlp_abbrev = {
         \ {
             \ 'pattern': '\\',
             \ 'expanded': ''
+        \ },
+        \ {
+            \ 'pattern': ';',
+            \ 'expanded': ''
         \ }
     \ ]
 \ }
@@ -125,12 +130,15 @@ nnoremap <leader>f :CtrlP<CR>
 " search in CtrlP for selected text
 " or current word under cursor
 nmap <leader>fw :CtrlP<CR><C-\>w
+nmap <leader>fW yW:CtrlP<CR><C-\>c
 vmap <leader>fw y:CtrlP<CR><C-\>c
 
 vmap <leader>a :Align =<CR>
 
 " NerdTreeTabs
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
+" Taglist
+map <Leader>t :TlistToggle<CR>
 
 " argumentsrewrap
 nnoremap <silent> <leader>a :call argumentrewrap#RewrapArguments()<CR>
