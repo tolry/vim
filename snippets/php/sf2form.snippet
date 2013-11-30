@@ -1,27 +1,33 @@
-namespace ${1:`substitute(substitute(substitute(expand("%:p"), '\v(.*\/\l+)((\/\u\w+)+)\/\u\w+.php$', '\2', ''), '\/', '\\\', 'g'), '^\\\', '', '')`};
+`PhpNamespaceStatement()`
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
+use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 
-class ${2:`Filename('', 'myClass')`} extends AbstractType
+class `Filename('', 'FooBarType')` extends AbstractType
 {
-	public function buildForm(FormBuilderInterface $builder, array $options)
-	{
-		$builder
-			${4}
-		;
-	}
 
-	public function getName()
-	{
-		return '${3}';
-	}
+        public function buildForm(FormBuilderInterface $builder, array $options)
+    {
+            $builder->add('${1:name}');
+        }
 
-	public function getDefaultOptions(array $options)
-	{
-		return array(
+        public function setDefaultOptions(OptionsResolverInterface $resolver)
+        {
+                $resolver->setDefaults(array(
+                        'data_class' => '`PhpNamespace()`\${2:Entity}'
+                ));
+        }
 
-		);
-	}
+        public function getName()
+        {
+                return '${3:`Filename('', 'FooBar')`}';
+        }
+
+        public function getParent()
+        {
+                return ${4:null};
+        }
+
 }
 

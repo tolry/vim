@@ -62,6 +62,9 @@ set autoindent
 let mapleader = ","
 let maplocalleader = ","
 
+" includes
+source ~/.vim/scripts/PhpNamespace.vim
+
 " Create directory on save if it does not exist
 " http://stackoverflow.com/questions/4292733/vim-creating-parent-directories-on-save
 augroup BWCCreateDir
@@ -133,12 +136,16 @@ nmap <leader>fw :CtrlP<CR><C-\>w
 nmap <leader>fW yW:CtrlP<CR><C-\>c
 vmap <leader>fw y:CtrlP<CR><C-\>c
 
-vmap <leader>a :Align =<CR>
+vmap <leader>a :Align = =><CR>
 
 " NerdTreeTabs
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
+
 " Taglist
 map <Leader>t :TlistToggle<CR>
+let Tlist_File_Fold_Auto_Close = 1
+let Tlist_Sort_Type = "name"
+let tlist_php_settings = "php;c:class;i:interface;f:function;d:constant"
 
 " argumentsrewrap
 nnoremap <silent> <leader>a :call argumentrewrap#RewrapArguments()<CR>
