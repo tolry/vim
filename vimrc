@@ -43,10 +43,10 @@ Bundle 'tsaleh/vim-matchit'
 Bundle 'jakobwesthoff/argumentrewrap'
 Bundle 'vim-scripts/mru.vim'
 Bundle "pangloss/vim-javascript"
-Bundle 'vim-scripts/Align'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'vim-scripts/taglist.vim'
+Bundle 'junegunn/vim-easy-align'
 
 " Snippets
 Bundle 'MarcWeber/vim-addon-mw-utils'
@@ -89,6 +89,7 @@ set softtabstop=4
 set expandtab
 set ignorecase
 set hlsearch
+set nofoldenable
 
 set encoding=utf-8
 " display filename
@@ -136,7 +137,11 @@ nmap <leader>fw :CtrlP<CR><C-\>w
 nmap <leader>fW yW:CtrlP<CR><C-\>c
 vmap <leader>fw y:CtrlP<CR><C-\>c
 
-vmap <leader>a :Align = =><CR>
+" For visual mode (e.g. vip<Enter>)
+vmap <Enter>   <Plug>(EasyAlign)
+
+" For normal mode, with Vim movement (e.g. <Leader>aip)
+nmap <Leader>a <Plug>(EasyAlign)
 
 " NerdTreeTabs
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
