@@ -32,10 +32,12 @@ Bundle 'groenewege/vim-less'
 " colors in css-context are displayed correctly
 Bundle 'ap/vim-css-color'
 
-Bundle 'airblade/vim-gitgutter'
+" git, svn, ...
+Bundle 'mhinz/vim-signify'
+Bundle 'tpope/vim-fugitive'
+
 Bundle 'bling/vim-airline'
 Bundle 'docteurklein/php-getter-setter.vim'
-Bundle 'ervandew/supertab'
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdcommenter'
