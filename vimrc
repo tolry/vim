@@ -2,20 +2,6 @@ set nocompatible               " be iMproved
 filetype off                   " required!
 set nopaste
 
-let b:phpgetset_getterTemplate =
-            \ "\n" .
-            \ "    public function %funcname%()\n" .
-            \ "    {\n" .
-            \ "        return $this->%varname%;\n" .
-            \ "    }"
-let b:phpgetset_setterTemplate =
-            \ "\n" .
-            \ "    public function %funcname%($%varname%)\n" .
-            \ "    {\n" .
-            \ "        $this->%varname% = $%varname%;\n" .
-            \ "        return $this;\n" .
-            \ "    }"
-
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 " include bundles here
@@ -36,8 +22,10 @@ Bundle 'ap/vim-css-color'
 Bundle 'mhinz/vim-signify'
 Bundle 'tpope/vim-fugitive'
 
+"html/css
+Bundle 'mattn/emmet-vim'
+
 Bundle 'bling/vim-airline'
-Bundle 'docteurklein/php-getter-setter.vim'
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdcommenter'
@@ -114,6 +102,9 @@ let g:php_cs_fixer_enable_default_mapping = 1   " Enable the mapping by default 
 let g:php_cs_fixer_dry_run = 0                  " Call command with dry-run option
 let g:php_cs_fixer_verbose = 0                  " Return the output of command if 1, else an inline information.
 
+" CTRL-P configuration
+" exclude _, \, ;, ... from search strings
+" so class names can be matched more easily
 let g:ctrlp_working_path_mode = ''
 let g:ctrlp_abbrev = {
     \ 'gmode': 'i',
@@ -134,6 +125,7 @@ let g:ctrlp_abbrev = {
 \ }
 
 nnoremap <leader>f :CtrlP<CR>
+
 " search in CtrlP for selected text
 " or current word under cursor
 nmap <leader>fw :CtrlP<CR><C-\>w
