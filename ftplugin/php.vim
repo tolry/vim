@@ -43,9 +43,3 @@ autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd BufWinLeave * call clearmatches()
 
-" Getter/Setter Plugin
-nmap <buffer> <LocalLeader>9 <Plug>PhpgetsetInsertGetterSetter
-nmap <buffer> <LocalLeader>o <Plug>PhpgetsetInsertGetterOnly
-nmap <buffer> <LocalLeader>O <Plug>PhpgetsetInsertSetterOnly
-nmap <buffer> <LocalLeader>I <Plug>PhpgetsetInsertBothGetterSetter
-

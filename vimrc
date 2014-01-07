@@ -30,7 +30,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'stephpy/vim-php-cs-fixer'
-Bundle 'tsaleh/vim-matchit'
+Bundle 'gregsexton/MatchTag'
 Bundle 'jakobwesthoff/argumentrewrap'
 Bundle 'vim-scripts/mru.vim'
 Bundle "pangloss/vim-javascript"
