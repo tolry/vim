@@ -22,6 +22,9 @@ Bundle 'ap/vim-css-color'
 Bundle 'mhinz/vim-signify'
 Bundle 'tpope/vim-fugitive'
 
+" calendar
+Bundle 'itchyny/calendar.vim'
+
 "html/css
 Bundle 'mattn/emmet-vim'
 
@@ -38,6 +41,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'vim-scripts/taglist.vim'
 Bundle 'junegunn/vim-easy-align'
+Bundle 'Raimondi/delimitMate'
 
 " Snippets
 Bundle 'MarcWeber/vim-addon-mw-utils'
@@ -94,11 +98,11 @@ set wildmode=list:longest
 set wildignore+=*/app/main/cache/*,*/app/cache/*,*/vendor/**/tests/*
 
 " php-cs-fixe plugin
-let g:php_cs_fixer_path = "/usr/local/bin/php-cs-fixer" " define the path to the php-cs-fixer.phar
-let g:php_cs_fixer_level = ""                " which level ?
-let g:php_cs_fixer_config = ""           " configuration
+" let g:php_cs_fixer_path = "/usr/local/bin/php-cs-fixer" " define the path to the php-cs-fixer.phar
+let g:php_cs_fixer_level = "all"                " which level ?
+let g:php_cs_fixer_config = "default"           " configuration
 let g:php_cs_fixer_php_path = "php"             " Path to PHP
-let g:php_cs_fixer_fixers_list = "linefeed,indentation,trailing_spaces,unused_use,php_closing_tag,return,visibility,braces,phpdoc_params,eof_ending,extra_empty_lines,controls_spaces,elseif"             " List of fixers
+" let g:php_cs_fixer_fixers_list = "linefeed,indentation,trailing_spaces,unused_use,php_closing_tag,return,visibility,braces,phpdoc_params,eof_ending,extra_empty_lines,controls_spaces,elseif"             " List of fixers
 let g:php_cs_fixer_enable_default_mapping = 1   " Enable the mapping by default (<leader>pcd)
 let g:php_cs_fixer_dry_run = 0                  " Call command with dry-run option
 let g:php_cs_fixer_verbose = 0                  " Return the output of command if 1, else an inline information.
@@ -156,5 +160,17 @@ let g:html_indent_script1 = "inc"
 let g:html_indent_style1 = "inc"
 
 au Filetype html,xml,jinjahtml source ~/.vim/scripts/wrapwithtag.vim
+
+" airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline#extensions#branch#enabled = 1
+let g:airline_left_sep= ' '
+let g:airline_right_sep=' '
+
+" calendar
+let g:calendar_google_calendar = 1
+let g:calendar_first_day = "monday"
 
 
