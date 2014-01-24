@@ -9,11 +9,6 @@ setlocal expandtab
 setlocal autoindent
 setlocal smartindent
 
-" Linewidth to 79, because of the formatoptions this is only valid for
-" comments
-setlocal textwidth=79
-setlocal formatoptions=qrocb
-
 " Do not wrap lines automatically
 setlocal nowrap
 
@@ -26,11 +21,6 @@ setlocal makeprg=php\ -l\ %
 
 " Use errorformat for parsing PHP error output
 setlocal errorformat=%m\ in\ %f\ on\ line\ %l
-
-" Switch syntax highlighting on, if it was not
-if !exists("g:syntax_on")
-    syntax
-endif
 
 " Use pman for manual pages
 setlocal keywordprg=pman
