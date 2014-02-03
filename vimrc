@@ -85,7 +85,7 @@ set expandtab
 set ignorecase
 set hlsearch
 set nofoldenable
-set cursorline
+"set cursorline
 
 set encoding=utf-8
 " display filename
