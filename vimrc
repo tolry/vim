@@ -42,6 +42,7 @@ Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'vim-scripts/taglist.vim'
 Bundle 'junegunn/vim-easy-align'
 Bundle 'Raimondi/delimitMate'
+Bundle 'chrisbra/csv.vim'
 
 " Snippets
 Bundle 'MarcWeber/vim-addon-mw-utils'
