@@ -174,4 +174,6 @@ let g:airline_right_sep=' '
 let g:calendar_google_calendar = 1
 let g:calendar_first_day = "monday"
 
+" hide gutter
+map <Leader>h :sign unplace *<CR>
 
