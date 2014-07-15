@@ -73,6 +73,8 @@ cnoremap %% <C-R>=expand('%:h').'/'<cr>
 
 " Set colors
 set t_Co=256
+" tmux thingy, dont know why
+set t_ut=
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 colorscheme jellybeans
 "colorscheme solarized
@@ -99,7 +101,7 @@ set wildmode=list:longest
 set wildignore+=*/app/main/cache/*,*/app/cache/*,*/vendor/**/tests/*
 
 " php-cs-fixe plugin
-" let g:php_cs_fixer_path = "/usr/local/bin/php-cs-fixer" " define the path to the php-cs-fixer.phar
+let g:php_cs_fixer_path = "php-cs-fixer" " define the path to the php-cs-fixer.phar
 let g:php_cs_fixer_level = "all"                " which level ?
 let g:php_cs_fixer_config = "default"           " configuration
 let g:php_cs_fixer_php_path = "php"             " Path to PHP
