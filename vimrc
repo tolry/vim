@@ -5,45 +5,45 @@ set nopaste
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 " include bundles here
-Bundle 'gmarik/vundle'
-" color scheme
-Bundle 'nanotech/jellybeans.vim'
-Bundle 'altercation/vim-colors-solarized'
+Plugin 'gmarik/vundle'
 " additional syntax highlighting
-Bundle 'Glench/Vim-Jinja2-Syntax'
-Bundle 'evidens/vim-twig'
-Bundle 'hail2u/vim-css3-syntax'
-Bundle 'plasticboy/vim-markdown'
-Bundle 'groenewege/vim-less'
+Plugin 'Glench/Vim-Jinja2-Syntax'
+Plugin 'evidens/vim-twig'
+Plugin 'hail2u/vim-css3-syntax'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'groenewege/vim-less'
+Plugin 'flazz/vim-colorschemes'
 " colors in css-context are displayed correctly
-Bundle 'ap/vim-css-color'
+Plugin 'ap/vim-css-color'
 
 " git, svn, ...
-Bundle 'mhinz/vim-signify'
-Bundle 'tpope/vim-fugitive'
+Plugin 'mhinz/vim-signify'
+Plugin 'tpope/vim-fugitive'
 
 "html/css
-Bundle 'mattn/emmet-vim'
+Plugin 'mattn/emmet-vim'
 
-Bundle 'bling/vim-airline'
-Bundle 'kien/ctrlp.vim'
-Bundle 'scrooloose/syntastic'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'stephpy/vim-php-cs-fixer'
-Bundle 'gregsexton/MatchTag'
-Bundle 'jakobwesthoff/argumentrewrap'
-Bundle "pangloss/vim-javascript"
-Bundle 'scrooloose/nerdtree'
-Bundle 'jistr/vim-nerdtree-tabs'
-Bundle 'vim-scripts/taglist.vim'
-Bundle 'junegunn/vim-easy-align'
-Bundle 'Raimondi/delimitMate'
+Plugin 'bling/vim-airline'
+Plugin 'kien/ctrlp.vim'
+Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'stephpy/vim-php-cs-fixer'
+Plugin 'gregsexton/MatchTag'
+Plugin 'jakobwesthoff/argumentrewrap'
+Plugin 'pangloss/vim-javascript'
+Plugin 'scrooloose/nerdtree'
+Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'vim-scripts/taglist.vim'
+Plugin 'junegunn/vim-easy-align'
+Plugin 'Raimondi/delimitMate'
+Plugin 'Chiel92/vim-autoformat'
+Plugin 'tpope/vim-surround'
 
 " Snippets
-Bundle 'MarcWeber/vim-addon-mw-utils'
-Bundle 'tomtom/tlib_vim'
-Bundle 'honza/vim-snippets'
-Bundle 'garbas/vim-snipmate'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'honza/vim-snippets'
+Plugin 'garbas/vim-snipmate'
 
 " Use filetype plugins, e.g. for PHP
 filetype plugin on
@@ -94,11 +94,11 @@ set wildmode=list:longest
 set wildignore+=*/app/main/cache/*,*/app/cache/*,*/vendor/**/tests/*
 
 " php-cs-fixe plugin
-let g:php_cs_fixer_path = "php-cs-fixer" " define the path to the php-cs-fixer.phar
+" let g:php_cs_fixer_path = "/usr/local/bin/php-cs-fixer" " define the path to the php-cs-fixer.phar
 let g:php_cs_fixer_level = "all"                " which level ?
 let g:php_cs_fixer_config = "default"           " configuration
 let g:php_cs_fixer_php_path = "php"             " Path to PHP
-" let g:php_cs_fixer_fixers_list = "linefeed,indentation,trailing_spaces,unused_use,php_closing_tag,return,visibility,braces,phpdoc_params,eof_ending,extra_empty_lines,controls_spaces,elseif"             " List of fixers
+let g:php_cs_fixer_fixers_list = "linefeed,indentation,trailing_spaces,unused_use,php_closing_tag,return,visibility,braces,phpdoc_params,eof_ending,extra_empty_lines,controls_spaces,elseif"             " List of fixers
 let g:php_cs_fixer_enable_default_mapping = 1   " Enable the mapping by default (<leader>pcd)
 let g:php_cs_fixer_dry_run = 0                  " Call command with dry-run option
 let g:php_cs_fixer_verbose = 0                  " Return the output of command if 1, else an inline information.
@@ -167,4 +167,6 @@ let g:airline_right_sep=' '
 
 " hide gutter
 map <Leader>h :sign unplace *<CR>
+
+noremap <F3> :Autoformat<CR><CR>
 
