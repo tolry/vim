@@ -22,9 +22,6 @@ Bundle 'ap/vim-css-color'
 Bundle 'mhinz/vim-signify'
 Bundle 'tpope/vim-fugitive'
 
-" calendar
-Bundle 'itchyny/calendar.vim'
-
 "html/css
 Bundle 'mattn/emmet-vim'
 
@@ -35,14 +32,12 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'stephpy/vim-php-cs-fixer'
 Bundle 'gregsexton/MatchTag'
 Bundle 'jakobwesthoff/argumentrewrap'
-Bundle 'vim-scripts/mru.vim'
 Bundle "pangloss/vim-javascript"
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'vim-scripts/taglist.vim'
 Bundle 'junegunn/vim-easy-align'
 Bundle 'Raimondi/delimitMate'
-Bundle 'chrisbra/csv.vim'
 
 " Snippets
 Bundle 'MarcWeber/vim-addon-mw-utils'
@@ -55,7 +50,7 @@ filetype plugin on
 filetype indent on
 set autoindent
 
-let mapleader = ","
+let mapleader      = ","
 let maplocalleader = ","
 
 " includes
@@ -77,8 +72,7 @@ set t_Co=256
 set t_ut=
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 colorscheme jellybeans
-"colorscheme solarized
-"set bg=dark
+
 syntax enable
 
 set tabstop=4
@@ -88,7 +82,6 @@ set expandtab
 set ignorecase
 set hlsearch
 set nofoldenable
-"set cursorline
 
 set encoding=utf-8
 " display filename
@@ -171,10 +164,6 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline#extensions#branch#enabled = 1
 let g:airline_left_sep= ' '
 let g:airline_right_sep=' '
-
-" calendar
-let g:calendar_google_calendar = 1
-let g:calendar_first_day = "monday"
 
 " hide gutter
 map <Leader>h :sign unplace *<CR>
