@@ -35,7 +35,6 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'vim-scripts/taglist.vim'
 Plugin 'junegunn/vim-easy-align'
-Plugin 'Raimondi/delimitMate'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'tpope/vim-surround'
 
@@ -164,6 +163,9 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline#extensions#branch#enabled = 1
 let g:airline_left_sep= ' '
 let g:airline_right_sep=' '
+" let g:Powerline_symbols='fancy'
+" let g:airline_powerline_fonts = 1
+" let g:airline_theme='luna'
 
 " hide gutter
 map <Leader>h :sign unplace *<CR>
