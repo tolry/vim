@@ -34,7 +34,7 @@ Plugin 'jakobwesthoff/argumentrewrap'
 Plugin 'pangloss/vim-javascript'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'vim-scripts/taglist.vim'
+Plugin 'majutsushi/tagbar'
 Plugin 'junegunn/vim-easy-align'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'tpope/vim-surround'
@@ -143,11 +143,8 @@ nmap <Leader>a <Plug>(EasyAlign)
 " NerdTreeTabs
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
 
-" Taglist
-map <Leader>t :TlistToggle<CR>
-let Tlist_File_Fold_Auto_Close = 1
-let Tlist_Sort_Type = "name"
-let tlist_php_settings = "php;c:class;i:interface;f:function;d:constant"
+" TagBar
+map <Leader>t :TagbarToggle<CR>
 
 " argumentsrewrap
 nnoremap <silent> <leader>a :call argumentrewrap#RewrapArguments()<CR>
