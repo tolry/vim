@@ -1,5 +1,5 @@
-set nocompatible               " be iMproved
-filetype off                   " required!
+set nocompatible " be iMproved
+filetype off     " required!
 
 " includes
 source ~/.vim/config/vundle.vim
