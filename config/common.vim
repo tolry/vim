@@ -10,6 +10,8 @@ cnoremap %% <C-R>=expand('%:h').'/'<cr>
 map <Leader>h :sign unplace *<CR>
 " remove trailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
+" folding toggle to space
+nnoremap <Space> za
 
 " Set colors
 set t_Co=256
@@ -23,7 +25,6 @@ syntax enable
 set nopaste
 set ignorecase
 set hlsearch
-set nofoldenable
 
 set encoding=utf-8
 " display filename
