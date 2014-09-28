@@ -12,6 +12,7 @@ map <Leader>h :sign unplace *<CR>
 autocmd BufWritePre * :%s/\s\+$//e
 " folding toggle to space
 nnoremap <Space> za
+vnoremap <Space> za
 
 " Set colors
 set t_Co=256
