@@ -35,6 +35,7 @@ Plugin 'junegunn/vim-easy-align'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'tpope/vim-surround'
 Plugin 'ervandew/supertab'
+Plugin 'othree/xml.vim'
 
 " Snippets
 Plugin 'MarcWeber/vim-addon-mw-utils'
