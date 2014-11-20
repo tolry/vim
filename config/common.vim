@@ -36,4 +36,5 @@ set ls=2
 set wildmenu
 set wildmode=list:longest
 set wildignore+=*/app/main/cache/*,*/app/cache/*,*/vendor/**/tests/*
+set pastetoggle=<F2>
 
