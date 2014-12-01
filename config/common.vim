@@ -35,6 +35,6 @@ set ls=2
 " file autocomplete
 set wildmenu
 set wildmode=list:longest
-set wildignore+=*/app/main/cache/*,*/app/cache/*,*/vendor/*,*/var/cache/*
+set wildignore+=*/app/main/cache/*,*/app/cache/*,*/vendor/*,*/var/cache/*,*/bower_components/*,*/node_modules/*
 set pastetoggle=<F2>
 
