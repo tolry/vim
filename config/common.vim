@@ -19,7 +19,7 @@ set t_Co=256
 " tmux thingy, dont know why
 set t_ut=
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
-colorscheme jellybeans
+colorscheme seti
 
 syntax enable
 

@@ -9,6 +9,7 @@ Plugin 'hail2u/vim-css3-syntax'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'groenewege/vim-less'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'trusktr/seti.vim'
 " colors in css-context are displayed correctly
 Plugin 'ap/vim-css-color'
 
