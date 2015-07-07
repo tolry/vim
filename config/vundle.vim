@@ -1,17 +1,15 @@
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
+
 " include bundles here
 Plugin 'gmarik/vundle'
 " additional syntax highlighting
-Plugin 'Glench/Vim-Jinja2-Syntax'
 Plugin 'evidens/vim-twig'
-Plugin 'hail2u/vim-css3-syntax'
 Plugin 'plasticboy/vim-markdown'
-Plugin 'groenewege/vim-less'
+
+" color schemes
 Plugin 'flazz/vim-colorschemes'
 Plugin 'trusktr/seti.vim'
-" colors in css-context are displayed correctly
-Plugin 'ap/vim-css-color'
 
 " git, svn, ...
 Plugin 'mhinz/vim-signify'
@@ -33,9 +31,7 @@ Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'majutsushi/tagbar'
 Plugin 'junegunn/vim-easy-align'
 Plugin 'Chiel92/vim-autoformat'
-Plugin 'tpope/vim-surround'
 Plugin 'ervandew/supertab'
-Plugin 'othree/xml.vim'
 
 " Snippets
 Plugin 'MarcWeber/vim-addon-mw-utils'
