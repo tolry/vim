@@ -19,6 +19,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'mattn/emmet-vim'
 
 Plugin 'bling/vim-airline'
+Plugin 'powerline/fonts'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdcommenter'
