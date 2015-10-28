@@ -41,3 +41,5 @@ Plugin 'honza/vim-snippets'
 Plugin 'garbas/vim-snipmate'
 
 Plugin 'chrisbra/NrrwRgn'
+
+Plugin 'tpope/vim-sensible'
