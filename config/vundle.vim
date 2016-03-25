@@ -44,3 +44,4 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'chrisbra/NrrwRgn'
 
 Plugin 'tpope/vim-sensible'
+Plugin 'tpope/vim-surround'
