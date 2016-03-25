@@ -20,6 +20,8 @@ let g:ctrlp_abbrev = {
     \ ]
 \ }
 
+let g:ctrlp_custom_ignore = '\v\.*/(node_modules|vendor|bower_components|var/cache|app(/main)?/cache)/\.*'
+
 nnoremap <leader>f :CtrlP<CR>
 
 " search in CtrlP for selected text
