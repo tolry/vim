@@ -21,7 +21,8 @@ set t_ut=
 
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 
-colorscheme seti
+colorscheme solarized
+set background=dark
 
 syntax enable
 
