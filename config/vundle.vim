@@ -48,3 +48,6 @@ Plugin 'tpope/vim-surround'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'noahfrederick/vim-skeleton'
 Plugin 'tpope/vim-repeat'
+
+Plugin 'laurentb/vim-cute-php'
+
