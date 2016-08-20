@@ -45,7 +45,6 @@ Plugin 'chrisbra/NrrwRgn'
 
 Plugin 'tpope/vim-sensible'
 Plugin 'tpope/vim-surround'
-Plugin 'jiangmiao/auto-pairs'
 Plugin 'noahfrederick/vim-skeleton'
 Plugin 'tpope/vim-repeat'
 
