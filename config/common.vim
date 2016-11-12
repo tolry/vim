@@ -40,3 +40,6 @@ set wildmenu
 set wildmode=list:longest
 set pastetoggle=<F2>
 
+" modify files when changing instead of overwriting them
+" important e.g. for webpack watch
+set backupcopy=yes
