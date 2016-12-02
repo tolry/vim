@@ -44,3 +44,6 @@ set pastetoggle=<F2>
 nnoremap p p=`]
 nnoremap P P=`]
 
+" modify files when changing instead of overwriting them
+" important e.g. for webpack watch
+set backupcopy=yes
