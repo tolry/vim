@@ -1,6 +1,5 @@
 let PHP_autoformatcomment = 1
-
-" {{{ Settings
+let PHP_vintage_case_default_indent = 1
 
 " Auto expand tabs to spaces
 setlocal expandtab
