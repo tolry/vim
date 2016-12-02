@@ -6,6 +6,7 @@ Plugin 'gmarik/vundle'
 " additional syntax highlighting
 Plugin 'evidens/vim-twig'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'vim-scripts/smarty.vim'
 
 " color schemes
 Plugin 'flazz/vim-colorschemes'
@@ -21,7 +22,7 @@ Plugin 'mattn/emmet-vim'
 Plugin 'bling/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'powerline/fonts'
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'stephpy/vim-php-cs-fixer'
@@ -46,7 +47,7 @@ Plugin 'chrisbra/NrrwRgn'
 
 Plugin 'tpope/vim-sensible'
 Plugin 'tpope/vim-surround'
-Plugin 'jiangmiao/auto-pairs'
 Plugin 'noahfrederick/vim-skeleton'
 Plugin 'tpope/vim-repeat'
 
+" Plugin 'ryanoasis/vim-devicons'

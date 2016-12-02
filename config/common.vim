@@ -40,3 +40,7 @@ set wildmenu
 set wildmode=list:longest
 set pastetoggle=<F2>
 
+" automatically reindent on vim paste
+nnoremap p p=`]
+nnoremap P P=`]
+
