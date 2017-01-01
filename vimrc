@@ -2,7 +2,7 @@ set nocompatible " be iMproved
 filetype off     " required!
 
 " includes
-source ~/.vim/config/vundle.vim
+source ~/.vim/config/plugins.vim
 source ~/.vim/config/common.vim
 source ~/.vim/config/common.indentation.vim
 source ~/.vim/config/common.auto-create-directory.vim
