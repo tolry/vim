@@ -38,8 +38,11 @@ Plug 'mileszs/ack.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/syntastic'
 Plug 'scrooloose/nerdcommenter'
+
 Plug 'stephpy/vim-php-cs-fixer'
 Plug 'alvan/vim-php-manual'
+Plug 'arnaud-lb/vim-php-namespace'
+
 Plug 'gregsexton/MatchTag'
 Plug 'jakobwesthoff/argumentrewrap'
 Plug 'pangloss/vim-javascript'

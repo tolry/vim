@@ -47,3 +47,15 @@ nnoremap P P=`]
 " modify files when changing instead of overwriting them
 " important e.g. for webpack watch
 set backupcopy=yes
+
+" Bubble single lines
+nmap <C-Up> ddkP
+nmap <C-Down> ddp
+" " Bubble multiple lines
+vmap <C-Up> xkP`[V`]
+vmap <C-Down> xp`[V`]
+
+set tags+=.tags-src,.tags-vendors
+
+" open reference in new tab
+nnoremap <silent><Leader><C-]> <C-w><C-]><C-w>T
