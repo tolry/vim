@@ -65,6 +65,7 @@ Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
 Plug 'noahfrederick/vim-skeleton'
 Plug 'tpope/vim-repeat'
+Plug 'terryma/vim-multiple-cursors'
 
 " Plug 'ryanoasis/vim-devicons'
 
