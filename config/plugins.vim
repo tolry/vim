@@ -15,7 +15,7 @@ call plug#begin(expand('~/.vim/plugged'))
 " include bundles here
 Plug 'gmarik/vundle'
 " additional syntax highlighting
-Plug 'evidens/vim-twig'
+Plug 'lumiliet/vim-twig'
 Plug 'plasticboy/vim-markdown'
 Plug 'vim-scripts/smarty.vim'
 
@@ -39,9 +39,9 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/syntastic'
 Plug 'scrooloose/nerdcommenter'
 
-Plug 'stephpy/vim-php-cs-fixer'
-Plug 'alvan/vim-php-manual'
-Plug 'arnaud-lb/vim-php-namespace'
+Plug 'stephpy/vim-php-cs-fixer', { 'for': 'php' }
+Plug 'alvan/vim-php-manual', { 'for': 'php' }
+Plug 'arnaud-lb/vim-php-namespace', { 'for': 'php' }
 
 Plug 'gregsexton/MatchTag'
 Plug 'jakobwesthoff/argumentrewrap'
