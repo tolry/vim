@@ -12,8 +12,9 @@ endif
 " Required:
 call plug#begin(expand('~/.vim/plugged'))
 
-" include bundles here
-Plug 'gmarik/vundle'
+" standard settings
+Plug 'tpope/vim-sensible'
+
 " additional syntax highlighting
 Plug 'lumiliet/vim-twig'
 Plug 'plasticboy/vim-markdown'
@@ -46,8 +47,10 @@ Plug 'arnaud-lb/vim-php-namespace', { 'for': 'php' }
 Plug 'gregsexton/MatchTag'
 Plug 'jakobwesthoff/argumentrewrap'
 Plug 'pangloss/vim-javascript'
+
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
+
 Plug 'majutsushi/tagbar'
 Plug 'junegunn/vim-easy-align'
 Plug 'Chiel92/vim-autoformat'
@@ -59,11 +62,10 @@ Plug 'tomtom/tlib_vim'
 Plug 'honza/vim-snippets'
 Plug 'garbas/vim-snipmate'
 
-Plug 'chrisbra/NrrwRgn'
-
-Plug 'tpope/vim-sensible'
-Plug 'tpope/vim-surround'
+" get empty php files already containing <?php and more
 Plug 'noahfrederick/vim-skeleton'
+
+Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'terryma/vim-multiple-cursors'
 
