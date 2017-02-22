@@ -71,4 +71,6 @@ Plug 'terryma/vim-multiple-cursors'
 
 " Plug 'ryanoasis/vim-devicons'
 
+Plug 'wincent/terminus'
+
 call plug#end()
