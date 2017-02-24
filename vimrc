@@ -24,3 +24,6 @@ source ~/.vim/config/plugin.vim-php-namespaces.vim
 source ~/.vim/config/script.phpnamespace.vim
 source ~/.vim/config/script.rename.vim
 
+if filereadable(expand("~/.vimrc.local"))
+    source ~/.vimrc.local
+endif
