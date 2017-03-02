@@ -21,7 +21,6 @@ source ~/.vim/config/plugin.argumentrewrap.vim
 source ~/.vim/config/plugin.autoformat.vim
 source ~/.vim/config/plugin.vim-php-namespaces.vim
 source ~/.vim/config/plugin.terminus.vim
-source ~/.vim/config/plugin.indent-line.vim
 
 source ~/.vim/config/script.phpnamespace.vim
 source ~/.vim/config/script.rename.vim

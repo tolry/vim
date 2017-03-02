@@ -55,7 +55,6 @@ Plug 'majutsushi/tagbar'
 Plug 'junegunn/vim-easy-align'
 Plug 'Chiel92/vim-autoformat'
 Plug 'ervandew/supertab'
-Plug 'Yggdroot/indentLine'
 
 " Snippets
 Plug 'MarcWeber/vim-addon-mw-utils'
