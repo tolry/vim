@@ -19,6 +19,7 @@ Plug 'tpope/vim-sensible'
 Plug 'lumiliet/vim-twig'
 Plug 'plasticboy/vim-markdown'
 Plug 'vim-scripts/smarty.vim'
+Plug 'rust-lang/rust.vim'
 
 " color schemes
 Plug 'flazz/vim-colorschemes'
