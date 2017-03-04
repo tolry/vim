@@ -23,6 +23,7 @@ Plug 'rust-lang/rust.vim'
 
 " color schemes
 Plug 'flazz/vim-colorschemes'
+Plug 'morhetz/gruvbox'
 Plug 'trusktr/seti.vim'
 
 " git, svn, ...
