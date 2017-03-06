@@ -21,8 +21,10 @@ let g:ctrlp_abbrev = {
 \ }
 
 let g:ctrlp_custom_ignore = '\v\.*/(node_modules|vendor|bower_components|var/cache|app(/main)?/cache)/\.*'
+let g:ctrlp_extensions = ['tag']
 
 nnoremap <leader>f :CtrlP<CR>
+nnoremap <leader>ft :CtrlPTag<CR>
 
 " search in CtrlP for selected text
 " or current word under cursor
