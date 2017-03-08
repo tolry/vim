@@ -27,8 +27,6 @@ setlocal errorformat=%m\ in\ %f\ on\ line\ %l
 " Use pman for manual pages
 setlocal keywordprg=pman
 
-" show folding indicators
-setlocal foldcolumn=5
 " unfold everything by default
 setlocal foldlevel=99
 setlocal foldnestmax=4
