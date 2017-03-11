@@ -60,3 +60,13 @@ set tags+=.tags-src,.tags-vendors
 
 " open reference in new tab
 nnoremap <silent><Leader><C-]> <C-w><C-]><C-w>T
+
+" backup files not needed
+set nobackup
+set nowritebackup
+
+" highlight current line
+set cursorline
+" cursorline may have performance impact on scrolling
+" this might help (http://eduncan911.com/software/fix-slow-scrolling-in-vim-and-neovim.html)
+set lazyredraw

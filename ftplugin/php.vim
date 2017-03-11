@@ -1,8 +1,6 @@
 let PHP_autoformatcomment = 1
 let PHP_vintage_case_default_indent = 1 " indent switch-case correctly
 let php_folding = 1                     " Set PHP folding of classes and functions.
-let php_htmlInStrings = 1               " Syntax highlight HTML code inside PHP strings.
-let php_sql_query = 1                   " Syntax highlight SQL code inside PHP strings.
 
 " Auto expand tabs to spaces
 setlocal expandtab
