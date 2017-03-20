@@ -42,19 +42,12 @@ set wildmode=list:longest
 set pastetoggle=<F2>
 
 " automatically reindent on vim paste
-nnoremap p p=`]
-nnoremap P P=`]
+nnoremap <silent><Leader>p p=`]
+nnoremap <silent><Leader>P P=`]
 
 " modify files when changing instead of overwriting them
 " important e.g. for webpack watch
 set backupcopy=yes
-
-" Bubble single lines
-nmap <C-Up> ddkP
-nmap <C-Down> ddp
-" " Bubble multiple lines
-vmap <C-Up> xkP`[V`]
-vmap <C-Down> xp`[V`]
 
 set tags+=.tags-src,.tags-vendors
 
@@ -64,9 +57,3 @@ nnoremap <silent><Leader><C-]> <C-w><C-]><C-w>T
 " backup files not needed
 set nobackup
 set nowritebackup
-
-" highlight current line
-set cursorline
-" cursorline may have performance impact on scrolling
-" this might help (http://eduncan911.com/software/fix-slow-scrolling-in-vim-and-neovim.html)
-set lazyredraw
