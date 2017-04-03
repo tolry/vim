@@ -61,7 +61,7 @@ Plug 'ervandew/supertab'
 " Snippets
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'
-Plug 'honza/vim-snippets'
+Plug 'honza/vim-snippets', { 'tag': 'b2dda36fc77c6a15d2ec4ea273df610a55e92952' }
 Plug 'garbas/vim-snipmate'
 
 " get empty php files already containing <?php and more
