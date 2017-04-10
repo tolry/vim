@@ -55,7 +55,6 @@ Plug 'jistr/vim-nerdtree-tabs'
 
 Plug 'majutsushi/tagbar'
 Plug 'junegunn/vim-easy-align'
-Plug 'Chiel92/vim-autoformat'
 Plug 'ervandew/supertab'
 
 " Snippets
@@ -74,5 +73,9 @@ Plug 'terryma/vim-multiple-cursors'
 " Plug 'ryanoasis/vim-devicons'
 
 Plug 'wincent/terminus'
+
+if v:version >= 704
+    Plug 'Chiel92/vim-autoformat'
+endif
 
 call plug#end()
