@@ -57,3 +57,4 @@ nnoremap <silent><Leader><C-]> <C-w><C-]><C-w>T
 " backup files not needed
 set nobackup
 set nowritebackup
+set noswapfile
