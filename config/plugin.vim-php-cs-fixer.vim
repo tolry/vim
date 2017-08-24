@@ -1,6 +1,6 @@
 " php-cs-fixe plugin
 " let g:php_cs_fixer_path = "/usr/local/bin/php-cs-fixer" " define the path to the php-cs-fixer.phar
-let g:php_cs_fixer_rules = '''{"@PSR2": true, "@Symfony": true, "array_syntax": {"syntax": "short"}}'''
+let g:php_cs_fixer_rules = '''{"@PSR2": true, "@Symfony": true, "array_syntax": {"syntax": "short"}, "concat_space": {"spacing": "one"}}'''
 let g:php_cs_fixer_php_path = "php"             " Path to PHP
 let g:php_cs_fixer_cache = $HOME . "/.php_cs.cache"
 
