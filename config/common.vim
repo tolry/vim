@@ -49,7 +49,7 @@ nnoremap <silent><Leader>P P=`]
 " important e.g. for webpack watch
 set backupcopy=yes
 
-set tags+=.tags-src,.tags-vendors
+set tags+=.tags,.tags-src,.tags-vendors
 
 " open reference in new tab
 nnoremap <silent><Leader><C-]> <C-w><C-]><C-w>T
