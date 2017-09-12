@@ -8,6 +8,7 @@ source ~/.vim/config/common.vim
 
 source ~/.vim/config/commands.vim
 source ~/.vim/config/common.indentation.vim
+source ~/.vim/config/common.folding.vim
 source ~/.vim/config/common.auto-create-directory.vim
 
 source ~/.vim/config/plugin.vim-php-cs-fixer.vim
