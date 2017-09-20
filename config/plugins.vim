@@ -25,6 +25,7 @@ Plug 'rust-lang/rust.vim'
 Plug 'flazz/vim-colorschemes'
 Plug 'morhetz/gruvbox'
 Plug 'trusktr/seti.vim'
+Plug 'KeitaNakamura/neodark.vim'
 
 " git, svn, ...
 Plug 'mhinz/vim-signify'

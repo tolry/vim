@@ -25,7 +25,12 @@ set t_ut=
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 
 " colorscheme Tomorrow-Night
+
+let g:gruvbox_contrast_dark="hard"
 colorscheme gruvbox
+
+" let g:neodark#background = '#202020'
+" colorscheme neodark
 set background=dark
 
 syntax enable
