@@ -15,8 +15,11 @@ nnoremap <Space> za
 vnoremap <Space> za
 
 " Set colors
-set t_Co=256
-" tmux thingy, dont know why
+" set t_Co=256
+set termguicolors
+" clearing uses background color
+" important if running in tmux and
+" them bg color differs from terminal bg color
 set t_ut=
 
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
