@@ -15,8 +15,11 @@ nnoremap <Space> za
 vnoremap <Space> za
 
 " Set colors
-" set t_Co=256
-set termguicolors
+if version > 800
+    set termguicolors
+else
+    set t_Co=256
+endif
 " clearing uses background color
 " important if running in tmux and
 " them bg color differs from terminal bg color
