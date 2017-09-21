@@ -29,12 +29,12 @@ let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 
 " colorscheme Tomorrow-Night
 
-let g:gruvbox_contrast_dark="hard"
-colorscheme gruvbox
+" let g:gruvbox_contrast_dark="hard"
+" colorscheme gruvbox
+" set background=dark
 
 " let g:neodark#background = '#202020'
-" colorscheme neodark
-set background=dark
+colorscheme neodark
 
 syntax enable
 
