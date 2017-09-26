@@ -15,7 +15,7 @@ nnoremap <Space> za
 vnoremap <Space> za
 
 " Set colors
-if version > 800
+if v:version >= 800
     set termguicolors
 else
     set t_Co=256
@@ -34,6 +34,7 @@ let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 " set background=dark
 
 " let g:neodark#background = '#202020'
+" let g:neodark#background = '#2A3C46'
 colorscheme neodark
 
 syntax enable
