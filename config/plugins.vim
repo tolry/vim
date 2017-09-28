@@ -40,7 +40,11 @@ Plug 'powerline/fonts'
 
 Plug 'mileszs/ack.vim'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'scrooloose/syntastic'
+if v:version >= 800
+    Plug 'w0rp/ale'
+else
+    Plug 'scrooloose/syntastic'
+endif
 Plug 'scrooloose/nerdcommenter'
 
 Plug 'stephpy/vim-php-cs-fixer', { 'for': 'php' }
