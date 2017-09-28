@@ -19,14 +19,7 @@ source ~/.vim/config/plugin.tagbar.vim
 source ~/.vim/config/plugin.airline.vim
 
 if v:version >= 800
-    " Load all plugins now.
-    " Plugins need to be added to runtimepath before helptags can be generated.
-    packloadall
-    " Load all of the helptags now, after plugins have been loaded.
-    " All messages and errors will be ignored.
-    silent! helptags ALL
-    let g:airline#extensions#ale#enabled = 1
-    let g:ale_php_phpcs_standard = 'PSR2'
+    source ~/.vim/config/plugin.ale.vim
 else
     source ~/.vim/config/plugin.syntastic.vim
 endif
