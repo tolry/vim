@@ -1,4 +1,4 @@
 #!/bin/bash
 
-vim +BundleInstall! +BundleClean +qa
+vim +PlugInstall! +PlugClean +qa
 
