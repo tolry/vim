@@ -2,7 +2,7 @@ current list of shortcuts not yet memorized
 
 |keys|mode|plugin|description|
 |----|----|------|-----------|
-|`\`\``|N| - | previous line? |
+|``` `` ```|N| - | previous line? |
 |`'.`|N| -| last edited |
 |`K`|N|-| docs for keyword (phpdoc in php)|
 |`zi`|N|-| enable/disable folding |
