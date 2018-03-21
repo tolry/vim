@@ -8,3 +8,10 @@ silent! helptags ALL
 let g:airline#extensions#ale#enabled = 1
 let g:ale_php_phpcs_standard = 'PSR2'
 
+" copen/lopen automatically if errors exist
+" let g:ale_open_list = 1
+
+let g:ale_linters = {
+\   'php': ['hack', 'langserver', 'php', 'phpcs', 'phpmd', 'phpstan']
+\}
+

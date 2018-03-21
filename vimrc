@@ -12,7 +12,7 @@ source ~/.vim/config/common.folding.vim
 source ~/.vim/config/common.auto-create-directory.vim
 
 source ~/.vim/config/plugin.vim-php-cs-fixer.vim
-source ~/.vim/config/plugin.ctrlp.vim
+source ~/.vim/config/plugin.fzf.vim
 source ~/.vim/config/plugin.easy-align.vim
 source ~/.vim/config/plugin.emmet.vim
 source ~/.vim/config/plugin.nerdtree.vim

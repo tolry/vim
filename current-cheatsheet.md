@@ -14,3 +14,9 @@ current list of shortcuts not yet memorized
 |`:set scb!`|N|-| scrollbind |
 |`^V`|N|ctrlp| new vertical split |
 |`pcf`|N|php-cs-fixer| fix current file |
+|`:Commits`|N|fzf| search in commit messages |
+|`:BCommits`|N|fzf| search in commit messages of current buffer |
+|`:BTags`|N|fzf| search tags in current buffer |
+|`:Lines`|N|fzf| search lines in all open buffers |
+|`:BLines`|N|fzf| search lines in active buffer |
+|`:Ag`|N|fzf| search ag results |
