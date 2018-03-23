@@ -51,6 +51,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'stephpy/vim-php-cs-fixer', { 'for': 'php' }
 Plug 'alvan/vim-php-manual', { 'for': 'php' }
 Plug 'arnaud-lb/vim-php-namespace', { 'for': 'php' }
+Plug 'fatih/vim-go', { 'for': 'go' }
 
 Plug 'gregsexton/MatchTag'
 Plug 'jakobwesthoff/argumentrewrap'
