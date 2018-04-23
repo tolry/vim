@@ -20,3 +20,5 @@ current list of shortcuts not yet memorized
 |`:Lines`|N|fzf| search lines in all open buffers |
 |`:BLines`|N|fzf| search lines in active buffer |
 |`:Ag`|N|fzf| search ag results |
+|`mm`|N|minimap| show minimap (`:Minimap`) |
+|`mc`|N|minimap| close minimap (`:MinimapClose`) |
