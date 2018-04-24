@@ -18,12 +18,9 @@ source ~/.vim/config/plugin.emmet.vim
 source ~/.vim/config/plugin.nerdtree.vim
 source ~/.vim/config/plugin.tagbar.vim
 source ~/.vim/config/plugin.airline.vim
+source ~/.vim/config/plugin.ultisnips.vim
 
-if v:version >= 800
-    source ~/.vim/config/plugin.ale.vim
-else
-    source ~/.vim/config/plugin.syntastic.vim
-endif
+source ~/.vim/config/plugin.ale.vim
 
 source ~/.vim/config/plugin.argumentrewrap.vim
 source ~/.vim/config/plugin.autoformat.vim

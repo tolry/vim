@@ -2,6 +2,10 @@
 
 This is my personal configuration, lots of stuff shamelessly stolen from @beberlei, @davidbadura and @dragonito. Feel free to use as convenient!
 
+## requirements
+
+* vim8+
+
 ## installation
 
 * clone to `~/.vim`

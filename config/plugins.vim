@@ -42,11 +42,7 @@ Plug 'severin-lemaignan/vim-minimap'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
-if v:version >= 800
-    Plug 'w0rp/ale'
-else
-    Plug 'scrooloose/syntastic'
-endif
+Plug 'w0rp/ale'
 Plug 'scrooloose/nerdcommenter'
 
 Plug 'stephpy/vim-php-cs-fixer', { 'for': 'php' }
@@ -64,27 +60,22 @@ Plug 'jistr/vim-nerdtree-tabs'
 
 Plug 'majutsushi/tagbar'
 Plug 'junegunn/vim-easy-align'
-Plug 'ervandew/supertab'
 
 " Snippets
-Plug 'MarcWeber/vim-addon-mw-utils'
-Plug 'tomtom/tlib_vim'
-Plug 'honza/vim-snippets', { 'tag': 'b2dda36fc77c6a15d2ec4ea273df610a55e92952' }
-Plug 'garbas/vim-snipmate'
+Plug 'honza/vim-snippets'
+Plug 'SirVer/ultisnips'
 
 " get empty php files already containing <?php and more
 Plug 'noahfrederick/vim-skeleton'
 
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
-Plug 'terryma/vim-multiple-cursors'
 
 " Plug 'ryanoasis/vim-devicons'
 
 Plug 'wincent/terminus'
+Plug 'Chiel92/vim-autoformat'
 
-if v:version >= 704
-    Plug 'Chiel92/vim-autoformat'
-endif
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 
 call plug#end()
