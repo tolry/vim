@@ -76,9 +76,14 @@ Plug 'tpope/vim-repeat'
 Plug 'wincent/terminus'
 Plug 'Chiel92/vim-autoformat'
 
-Plug 'roxma/nvim-completion-manager'
-if !has('nvim')
-    Plug 'roxma/vim-hug-neovim-rpc'
+" pip3 install --user neovim [jedi psutil setproctitle]
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
 endif
+let g:deoplete#enable_at_startup = 1
 
 call plug#end()
