@@ -76,6 +76,9 @@ Plug 'tpope/vim-repeat'
 Plug 'wincent/terminus'
 Plug 'Chiel92/vim-autoformat'
 
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+Plug 'roxma/nvim-completion-manager'
+if !has('nvim')
+    Plug 'roxma/vim-hug-neovim-rpc'
+endif
 
 call plug#end()
