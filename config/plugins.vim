@@ -26,6 +26,7 @@ Plug 'flazz/vim-colorschemes'
 Plug 'morhetz/gruvbox'
 Plug 'trusktr/seti.vim'
 Plug 'KeitaNakamura/neodark.vim'
+Plug 'junegunn/vim-emoji'
 
 " git, svn, ...
 Plug 'mhinz/vim-signify'
