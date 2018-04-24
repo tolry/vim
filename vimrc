@@ -27,6 +27,7 @@ source ~/.vim/config/plugin.autoformat.vim
 source ~/.vim/config/plugin.vim-php-namespaces.vim
 source ~/.vim/config/plugin.terminus.vim
 source ~/.vim/config/plugin.jsx.vim
+source ~/.vim/config/plugin.signify.vim
 
 source ~/.vim/config/script.phpnamespace.vim
 source ~/.vim/config/script.rename.vim
