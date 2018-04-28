@@ -56,8 +56,8 @@ Plug 'jakobwesthoff/argumentrewrap'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 
-Plug 'scrooloose/nerdtree'
-Plug 'jistr/vim-nerdtree-tabs'
+Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeTabsToggle', 'NERDTreeTabsFind'] }
+Plug 'jistr/vim-nerdtree-tabs', { 'on': ['NERDTreeToggle', 'NERDTreeTabsToggle', 'NERDTreeTabsFind'] }
 
 Plug 'majutsushi/tagbar'
 Plug 'junegunn/vim-easy-align'

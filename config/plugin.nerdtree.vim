@@ -1,4 +1,4 @@
 " NerdTreeTabs
-map <Leader>n <plug>NERDTreeTabsToggle<CR>
-map <Leader>m <plug>NERDTreeTabsFind<CR>
+map <Leader>n :NERDTreeTabsToggle<CR>
+map <Leader>m :NERDTreeTabsFind<CR>
 
