@@ -42,6 +42,7 @@ set synmaxcol=200 " only syntax highlight short lines (major performance impact)
 
 set nopaste
 set ignorecase
+set smartcase
 set hlsearch
 
 set encoding=utf-8
