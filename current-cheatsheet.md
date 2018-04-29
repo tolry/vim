@@ -22,3 +22,8 @@ current list of shortcuts not yet memorized
 |`:Ag`|N|fzf| search ag results |
 |`mm`|N|minimap| show minimap (`:Minimap`) |
 |`mc`|N|minimap| close minimap (`:MinimapClose`) |
+|`go`|N|nerdtree| preview/open file without changing focus |
+|`C`|N|nerdtree| change tree root to currently selected folder |
+|`cd`|N|nerdtree| change pwd to currently selected folder |
+|`B`|N|nerdtree| bookmarks list |
+|`:Bookmark`|N|nerdtree| bookmark folder |

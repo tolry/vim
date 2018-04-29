@@ -27,6 +27,7 @@ Plug 'morhetz/gruvbox'
 Plug 'trusktr/seti.vim'
 Plug 'KeitaNakamura/neodark.vim'
 Plug 'junegunn/vim-emoji'
+Plug 'ryanoasis/vim-devicons'
 
 " git, svn, ...
 Plug 'mhinz/vim-signify'
@@ -39,6 +40,7 @@ Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'powerline/fonts'
 Plug 'severin-lemaignan/vim-minimap'
+Plug 'nathanaelkane/vim-indent-guides'
 
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
@@ -85,6 +87,5 @@ else
   Plug 'roxma/nvim-yarp'
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
-let g:deoplete#enable_at_startup = 1
 
 call plug#end()
