@@ -74,3 +74,9 @@ nnoremap <silent><Leader><C-]> <C-w><C-]><C-w>T
 set nobackup
 set nowritebackup
 set noswapfile
+
+set number
+" preserve undo beyond file save
+set undofile
+
+set linebreak showbreak=↪\  breakindent breakindentopt=shift:-2
