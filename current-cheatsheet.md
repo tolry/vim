@@ -27,3 +27,6 @@ current list of shortcuts not yet memorized
 |`cd`|N|nerdtree| change pwd to currently selected folder |
 |`B`|N|nerdtree| bookmarks list |
 |`:Bookmark`|N|nerdtree| bookmark folder |
+|`^Y`|N|-| move window down without moving cursor |
+|`^E`|N|-| move window up without moving cursor |
+
