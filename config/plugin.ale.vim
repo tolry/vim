@@ -15,5 +15,6 @@ let g:ale_linters = {
 \   'php': ['hack', 'langserver', 'php', 'phpcs', 'phpmd', 'phpstan']
 \}
 
-let g:ale_sign_error = emoji#for('bomb')
-let g:ale_sign_warning = emoji#for('small_orange_diamond')
+let g:ale_sign_column_always = 1
+let g:ale_sign_error = '⚑'
+let g:ale_sign_warning = '⚐'

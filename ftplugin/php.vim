@@ -1,6 +1,7 @@
 let PHP_autoformatcomment = 1
 let PHP_vintage_case_default_indent = 1 " indent switch-case correctly
 let php_folding = 1                     " Set PHP folding of classes and functions.
+let g:PHP_outdentphpescape = 0 " indenting setting on php/html mixed content
 
 " Auto expand tabs to spaces
 setlocal expandtab
@@ -14,7 +15,7 @@ setlocal nowrap
 
 " Correct indentation after opening a phpdocblock and automatic * on every
 " line
-setlocal formatoptions=qroct
+setlocal formatoptions=qroctj
 
 " Use php syntax check when doing :make
 setlocal makeprg=php\ -l\ %

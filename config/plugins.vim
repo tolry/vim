@@ -40,7 +40,6 @@ Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'powerline/fonts'
 Plug 'severin-lemaignan/vim-minimap'
-Plug 'nathanaelkane/vim-indent-guides'
 
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
