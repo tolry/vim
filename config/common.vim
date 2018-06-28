@@ -62,7 +62,7 @@ nnoremap <silent><Leader>p p=`]
 nnoremap <silent><Leader>P P=`]
 
 " modify files when changing instead of overwriting them
-" important e.g. for webpack watch
+" important e.g. for webpack watch, sass, nfs, ...
 set backupcopy=yes
 
 set tags+=.tags,.tags-src,.tags-vendors
