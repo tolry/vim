@@ -51,6 +51,8 @@ Plug 'stephpy/vim-php-cs-fixer', { 'for': 'php' }
 Plug 'alvan/vim-php-manual', { 'for': 'php' }
 Plug 'arnaud-lb/vim-php-namespace', { 'for': 'php' }
 Plug 'fatih/vim-go', { 'for': 'go' }
+Plug 'phpactor/phpactor' ,  {'do': 'composer install', 'for': 'php'}
+Plug 'kristijanhusak/deoplete-phpactor'
 
 Plug 'gregsexton/MatchTag'
 Plug 'jakobwesthoff/argumentrewrap'
