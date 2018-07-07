@@ -54,6 +54,7 @@ Plug 'fatih/vim-go', { 'for': 'go' }
 Plug 'zchee/deoplete-go', { 'do': 'make'}
 Plug 'phpactor/phpactor' ,  {'do': 'composer install', 'for': 'php'}
 Plug 'kristijanhusak/deoplete-phpactor'
+Plug 'wellle/tmux-complete.vim'
 
 Plug 'gregsexton/MatchTag'
 Plug 'jakobwesthoff/argumentrewrap'
