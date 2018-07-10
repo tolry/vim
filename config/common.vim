@@ -38,7 +38,8 @@ let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 colorscheme neodark
 
 syntax enable
-set synmaxcol=200 " only syntax highlight short lines (major performance impact)
+set synmaxcol=400 " only syntax highlight shorter lines (major performance impact) - e.g. excludes giant js, xml, ... file containing one line only
+set lazyredraw " performance
 
 set nopaste
 set ignorecase
