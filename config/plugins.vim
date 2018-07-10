@@ -60,6 +60,7 @@ Plug 'gregsexton/MatchTag'
 Plug 'jakobwesthoff/argumentrewrap'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
+Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
 
 Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeTabsToggle', 'NERDTreeTabsFind'] }
 Plug 'jistr/vim-nerdtree-tabs', { 'on': ['NERDTreeToggle', 'NERDTreeTabsToggle', 'NERDTreeTabsFind'] }
