@@ -7,6 +7,7 @@ current list of shortcuts not yet memorized
 |`K`|N|-| docs for keyword (phpdoc in php)|
 |`zi`|N|-| enable/disable folding |
 |`ga`|N|-| character code |
+|`gf`|N|-| jump to filename under cursor |
 |`,h`|N|-| hide gutter |
 |`^O`|N|-| navigate back |
 |`^I`|N|-| navigate forward |
