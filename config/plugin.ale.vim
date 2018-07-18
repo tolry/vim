@@ -8,6 +8,11 @@ silent! helptags ALL
 let g:airline#extensions#ale#enabled = 1
 let g:ale_php_phpcs_standard = 'PSR2'
 
+" do not lint while changing text
+" instead lint when insert mode is 'finished'
+let g:ale_lint_on_text_changed = 'never'
+let g:ale_lint_on_insert_leave = 1
+
 " copen/lopen automatically if errors exist
 " let g:ale_open_list = 1
 
