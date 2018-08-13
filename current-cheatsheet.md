@@ -30,4 +30,5 @@ current list of shortcuts not yet memorized
 |`:Bookmark`|N|nerdtree| bookmark folder |
 |`^Y`|N|-| move window down without moving cursor |
 |`^E`|N|-| move window up without moving cursor |
+|SHIFT+TAB|-|fzf/Ag| select multiple files |
 
