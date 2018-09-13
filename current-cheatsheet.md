@@ -31,4 +31,5 @@ current list of shortcuts not yet memorized
 |`^Y`|N|-| move window down without moving cursor |
 |`^E`|N|-| move window up without moving cursor |
 |SHIFT+TAB|-|fzf/Ag| select multiple files |
+|`:<C-f>`|N| - | search in command history |
 
