@@ -56,7 +56,7 @@ Plug 'phpactor/phpactor' ,  {'do': 'composer install', 'for': 'php'}
 Plug 'kristijanhusak/deoplete-phpactor'
 Plug 'wellle/tmux-complete.vim'
 
-Plug 'gregsexton/MatchTag'
+"Plug 'gregsexton/MatchTag'
 Plug 'jakobwesthoff/argumentrewrap'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
