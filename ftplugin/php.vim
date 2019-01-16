@@ -1,6 +1,5 @@
 let PHP_autoformatcomment = 1
 let PHP_vintage_case_default_indent = 1 " indent switch-case correctly
-let php_folding = 1                     " Set PHP folding of classes and functions.
 let g:PHP_outdentphpescape = 0 " indenting setting on php/html mixed content
 
 " Auto expand tabs to spaces
@@ -25,10 +24,6 @@ setlocal errorformat=%m\ in\ %f\ on\ line\ %l
 
 " Use pman for manual pages
 setlocal keywordprg=pman
-
-" unfold everything by default
-setlocal foldlevel=99
-setlocal foldnestmax=4
 
 setlocal number
 
