@@ -27,15 +27,7 @@ set t_ut=
 
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 
-" colorscheme Tomorrow-Night
-
-" let g:gruvbox_contrast_dark="hard"
-" colorscheme gruvbox
-" set background=dark
-
-" let g:neodark#background = '#202020'
-" let g:neodark#background = '#2A3C46'
-colorscheme neodark
+colorscheme nord
 
 syntax enable
 set synmaxcol=400 " only syntax highlight shorter lines (major performance impact) - e.g. excludes giant js, xml, ... file containing one line only
