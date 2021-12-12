@@ -135,7 +135,7 @@ let g:airline#extensions#tabline#show_buffers = 0
 
 let g:Powerline_symbols='fancy'
 let g:airline_powerline_fonts = 1
-let g:airline_theme='nord_minimal'
+let g:airline_theme='nord'
 
 
 source ~/.vim/config/script.rename.vim

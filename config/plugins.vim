@@ -16,11 +16,11 @@ call plug#begin(expand('~/.vim/plugged'))
 Plug 'tpope/vim-sensible'
 
 " color schemes
+Plug 'arcticicestudio/nord-vim'
 Plug 'flazz/vim-colorschemes'
 
 
 Plug 'bling/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
 Plug 'powerline/fonts'
 
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
