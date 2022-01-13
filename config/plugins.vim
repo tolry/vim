@@ -34,4 +34,6 @@ Plug 'tpope/vim-repeat'
 
 Plug 'wincent/terminus'
 
+Plug 'fourjay/vim-phpt'
+
 call plug#end()
